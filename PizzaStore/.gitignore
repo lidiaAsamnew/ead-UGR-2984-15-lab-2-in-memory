@@ -1,0 +1,72 @@
+## Build artifacts
+bin/
+obj/
+out/
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+**/AnyCPU/
+
+## Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider / JetBrains
+.idea/
+*.sln.iml
+
+## Logs
+*.log
+logs/
+
+## Temporary files
+*.tmp
+*.temp
+*.cache
+*.pid
+*.ncb
+*.dbmdl
+*.dbproj.user
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+## Auto-generated files
+Generated/
+*.g.cs
+*.Designer.cs
+
+## Dotnet local tools
+/.store/
+dotnet-tools.json
+
+## Azure / Publish settings
+PublishProfiles/
+*.pubxml
+*.publishsettings
+
+## OS specific files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+*.DS_Store
+
+# Linux
+*~
+
+## Other
+.env
+*.pfx
+*.key
