@@ -1,9 +1,9 @@
-using Microsoft.EntityFrameworkCore;
-using PizzaStore.Models;
-
-public class PizzaDb : DbContext
+namespace PizzaStore.Models
 {
-    public PizzaDb(DbContextOptions<PizzaDb> options) : base(options) { }
-
-    public DbSet<Pizza> Pizzas => Set<Pizza>();
+    public class Pizza
+    {
+        public int Id { get; set; }
+        public string? Name { get; set; }
+        public string? Description { get; set; }
+    }
 }
